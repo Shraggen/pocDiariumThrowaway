@@ -1,6 +1,6 @@
 ## 1. Local STT and SLM Setup
 
-- [ ] 1.1 Implement `stt.py` using `whisper-cpp-python` or `faster-whisper` and verify it can transcribe a local `.wav` file into text.
+- [x] 1.1 Implement `stt.py` using `whisper-cpp-python` or `faster-whisper` and verify it can transcribe a local `.wav` file into text.
 - [ ] 1.2 Implement `extractor.py` using `llama-cpp-python` with GBNF generation from Pydantic models, and verify it returns a valid JSON object.
 
 ## 2. Database and RAG
