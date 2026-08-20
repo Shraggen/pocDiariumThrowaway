@@ -1,0 +1,22 @@
+[
+  {
+    "domain": "mechanic",
+    "transcript": "Checked front pads, down to about 3mm, rotors look grooved.",
+    "expected_json": {
+      "axle": "front",
+      "pad_thickness_mm": 3.0,
+      "rotor_condition": "grooved"
+    },
+    "expected_follow_up": null
+  },
+  {
+    "domain": "mechanic",
+    "transcript": "Replaced the pads, heavy wear on inner side.",
+    "expected_json": {
+      "axle": null,
+      "pad_thickness_mm": null,
+      "rotor_condition": null
+    },
+    "expected_follow_up": "Which axle?"
+  }
+]
